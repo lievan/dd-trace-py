@@ -2622,6 +2622,14 @@ venv = Venv(
                 "pytest-asyncio": latest,
             },
         ),
+        Venv(
+            name="torch",
+            command="pytest {cmdargs} tests/contrib/torch",
+            pys=select_pys(min_version="3.7", max_version="3.9"),
+            pkgs={
+                "torch": latest,
+            },
+        ),
     ],
 )
 

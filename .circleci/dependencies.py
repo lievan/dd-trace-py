@@ -159,4 +159,5 @@ LATEST_VERSIONS = {
     "werkzeug": "2.2.2",
     "yaaredis": "3.0.0",
     "yarl": "1.8.2",
+    "torch": "1.13.1",
 }
